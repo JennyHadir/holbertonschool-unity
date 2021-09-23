@@ -23,6 +23,7 @@ public class CameraController : MonoBehaviour
         transform.position = player.position + cameraOffset;
 
         transform.LookAt(player.position);
+
     }
 
 
