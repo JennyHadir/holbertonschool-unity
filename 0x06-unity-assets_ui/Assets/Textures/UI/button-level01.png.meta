@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 88a04bf5a1a180b43b1a71b45f5431e3
+guid: c2514a27467778e42babc462d07dc20e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4928742352451709002
+    second: button-level01 1_0
+  - first:
+      213: -3044749665540109536
+    second: button-level01 1_1
+  - first:
+      213: 420714208305049663
+    second: button-level01_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,13 +50,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 603, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 1226, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -125,7 +134,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: button-level01 1_0
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 610
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b751bca1f6999bb0800000000000000
+      internalID: -4928742352451709002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-level01 1_1
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 0
+        width: 603
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b0e7b9f40eeb5d0800000000000000
+      internalID: -3044749665540109536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button-level01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 603
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f307bf9e75da6d500800000000000000
+      internalID: 420714208305049663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1847,7 +1847,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: BMG
+  m_Text: BGM
 --- !u!222 &1688867936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2369,6 +2369,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: ApplyButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
+    - target: {fileID: 3525962810795610266, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
     - target: {fileID: 3525962810795610267, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2453,6 +2477,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610269, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3525962810795610269, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3945451662944984592, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
 --- !u!1001 &8410486375137941524
@@ -2550,5 +2582,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
+    - target: {fileID: 8410486374689707618, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
+    - target: {fileID: 8410486374689707619, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410486374689707619, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3945451662944984592, guid: 97d47089170550a4c90e9e44711fcc4f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6592f987d689b6b44a73edad524e256c, type: 3}
