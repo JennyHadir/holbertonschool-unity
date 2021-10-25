@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 public class Footsteps : MonoBehaviour
 {
     public CharacterController cc;
-    public AudioSource RockClip, LandingRockClip;
+    public AudioSource RockClip;
     // Start is called before the first frame update
     void Start()
     {
