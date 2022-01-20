@@ -290,7 +290,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1750621624}
+        m_TargetAssemblyTypeName: SliderControl, Assembly-CSharp
+        m_MethodName: SetBGMVolume
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &393573938 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5381325581214365630, guid: f47ef0d5b1f460e41822784f2410d348, type: 3}
@@ -1936,6 +1948,7 @@ GameObject:
   - component: {fileID: 1750621620}
   - component: {fileID: 1750621619}
   - component: {fileID: 1750621623}
+  - component: {fileID: 1750621624}
   m_Layer: 5
   m_Name: OptionsCanvas
   m_TagString: Untagged
@@ -2042,6 +2055,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4050247aef193f442a0cd6c8796104be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1750621624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750621618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2b6148a4991ae42a98b0efcfff6f90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 2623fdca903f4bf4488b16029736aeba, type: 2}
 --- !u!1 &1917978821
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,8 +2102,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 50}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchoredPosition: {x: -15, y: -2}
+  m_SizeDelta: {x: 1710, y: 800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917978823
 MonoBehaviour:
