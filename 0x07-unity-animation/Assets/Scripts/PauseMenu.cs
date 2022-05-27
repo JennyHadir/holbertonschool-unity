@@ -41,7 +41,9 @@ public class PauseMenu : MonoBehaviour
     //
     public void Options()
     {
+        Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene("Options");
+        PlayerPrefs.SetString("prevScene", scene.name);
     }
 
     //

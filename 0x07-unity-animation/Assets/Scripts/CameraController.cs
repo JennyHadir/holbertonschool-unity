@@ -21,17 +21,20 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isInverted)
+        if (PlayerPrefs.GetInt("inverted") == 1)
         {
-            var MouseY = Input.GetAxis("Mouse Y") * Time.deltaTime * 40.0f;
-            transform.Rotate(-MouseY, 0, 0);
+            cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * Quaternion.AngleAxis((Input.GetAxis("Mouse Y") * -1)* sensitivity, Vector3.left) * cameraOffset;
+            transform.position = player.position + cameraOffset;
+
+            transform.LookAt(player.position);
         }
+        else
+        {
+            cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * Quaternion.AngleAxis(Input.GetAxis("Mouse Y") * sensitivity, Vector3.left) * cameraOffset;
+            transform.position = player.position + cameraOffset;
 
-        cameraOffset = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * sensitivity, Vector3.up) * cameraOffset;
-        transform.position = player.position + cameraOffset;
-
-        transform.LookAt(player.position);
-
+            transform.LookAt(player.position);
+        }
     }
 
 

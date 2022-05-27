@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a980e809043f44e4eb7f98f8b30b428c
+guid: 3b3e21fc60fac554b834d27f8b3836d0
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
@@ -11,72 +11,72 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_Hair_MAT
-    second: {fileID: 2100000, guid: 68f917850771faf46939a5e83a08b616, type: 2}
+    second: {fileID: 2100000, guid: 225e5e51873945341841e4e60241f4de, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_Hands_MAT
-    second: {fileID: 2100000, guid: f349a701bc20a334bbe3db058dd0c6f1, type: 2}
+    second: {fileID: 2100000, guid: c9f5edb0d5624ed4e87dec19fdfacb0a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_Head_MAT
-    second: {fileID: 2100000, guid: a902e9dbb8a27914b87d8cbe1b4b1b9c, type: 2}
+    second: {fileID: 2100000, guid: 80bfd8b8fcdb233459f52f0804ebccf8, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_LowerBody_MAT
-    second: {fileID: 2100000, guid: f5dfbd5bea9a43145b5e34783dd6c5d4, type: 2}
+    second: {fileID: 2100000, guid: 3c556277a0667cc4bb20add816f81129, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_Scarf_MAT
-    second: {fileID: 2100000, guid: 37289159bb8188b4dae98da3c1ab0add, type: 2}
+    second: {fileID: 2100000, guid: b68ba6c92ac6fc344932d23bd942f726, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_Shoes_MAT
-    second: {fileID: 2100000, guid: 68e88d0ced4835240a78428e8a7ae655, type: 2}
+    second: {fileID: 2100000, guid: 702dbb6cb402f574cb9f43202815dd13, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Boy01_UpperBody_MAT
-    second: {fileID: 2100000, guid: 60907d2302afc7e40a4d20e1307390d2, type: 2}
+    second: {fileID: 2100000, guid: 4cbb0dc5c33bdca429a3f6b077329629, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_Hair_diffuse
-    second: {fileID: 2800000, guid: a7e2622bcf6ae8042b69b2bb5e5252a0, type: 3}
+    second: {fileID: 2800000, guid: 81f5421314f463d4f92b252094e1a581, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_Hands_diffuse
-    second: {fileID: 2800000, guid: 65994be50324ff04ebbd9d6571255545, type: 3}
+    second: {fileID: 2800000, guid: c4d3d5502149b4f4f8ea8caf5646e49d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_Head_diffuse
-    second: {fileID: 2800000, guid: 34ebb21496edda442a8ac0ebe52fff49, type: 3}
+    second: {fileID: 2800000, guid: 72a85e24578263341b65027e5165d8ed, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_LowerBody_diffuse
-    second: {fileID: 2800000, guid: 87b62bd990df37c45b5b8bb319062704, type: 3}
+    second: {fileID: 2800000, guid: 352494182a5dba848bc088b85092ddba, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_Scarf_diffuse
-    second: {fileID: 2800000, guid: 22b686324fd0c6a45bafad4fe20ae6be, type: 3}
+    second: {fileID: 2800000, guid: d47d3b8cf0e510e40aae32aac15edd67, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_Shoes_diffuse
-    second: {fileID: 2800000, guid: fdb5d177fd12af047abbbde9d3a1a070, type: 3}
+    second: {fileID: 2800000, guid: 04106840c12af12409a987279acb01be, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Boy_UpperBody_diffuse
-    second: {fileID: 2800000, guid: 25fe6822c43a8704ea031c4f4fe4adeb, type: 3}
+    second: {fileID: 2800000, guid: 890404b9db0293e43ad3b30eb4ab5126, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
